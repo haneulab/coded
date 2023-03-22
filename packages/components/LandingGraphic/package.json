@@ -1,0 +1,5 @@
+{
+	"name": "@nextapp/LandingGraphic",
+	"main": "index.ts",
+	"version":"1.0.0"
+}

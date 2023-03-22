@@ -1,0 +1,5 @@
+{
+	"name": "@nextapp/Header",
+	"main": "index.ts",
+	"version":"1.0.0"
+}

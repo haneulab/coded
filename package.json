@@ -1,0 +1,50 @@
+{
+    "name": "nextuse",
+    "version": "0.1.0",
+    "workspaces": [
+        "packages/**"
+    ],
+    "private": true,
+    "engines": {
+        "npm": "Please use yarn",
+        "yarn": ">=1.19.1",
+        "node": ">=16.8.0  <17.0.0"
+    },
+    "engineStrict": true,
+    "scripts": {
+        "dev": " open http://localhost:3000 && cross-env NODE_OPTIONS=' - insepct' next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "nextuse": "nextuse --init",
+        "format": "prettier --write \"./**/*.{ts,tsx}\"",
+        "type-check": "tsc --pretty --noEmit",
+        "prepare": "husky install"
+    },
+    "dependencies": {
+        "next": "^13.0.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-icons": "^4.8.0"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.3",
+        "@types/node": "^18.15.3",
+        "@types/react": "^18.0.28",
+        "@types/react-dom": "^18.0.11",
+        "@typescript-eslint/eslint-plugin": "^5.55.0",
+        "@typescript-eslint/parser": "^5.55.0",
+        "autoprefixer": "^10.4.14",
+        "cross-env": "^7.0.3",
+        "eslint": "^8.36.0",
+        "eslint-config-next": "^13.2.4",
+        "eslint-config-prettier": "^8.7.0",
+        "eslint-plugin-react": "^7.32.2",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "husky": "^8.0.3",
+        "postcss": "^8.4.21",
+        "prettier": "^2.8.4",
+        "tailwindcss": "^3.2.7",
+        "typescript": "^5.0.2"
+    }
+}

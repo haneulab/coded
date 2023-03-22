@@ -1,0 +1,5 @@
+{
+	"name": "@nextapp/LoginButton",
+	"main": "index.ts",
+	"version":"1.0.0"
+}
