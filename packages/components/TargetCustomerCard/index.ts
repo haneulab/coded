@@ -1,2 +1,2 @@
-import {default as TargetCustomerCard} from "./TargetCustomerCard"
+import { default as TargetCustomerCard } from './TargetCustomerCard'
 export default TargetCustomerCard

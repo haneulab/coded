@@ -1,3 +1,3 @@
 export interface ILandingGraphic {
-	id?: string
+    id?: string
 }

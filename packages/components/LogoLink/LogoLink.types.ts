@@ -1,3 +1,3 @@
 export interface ILogoLink {
-	id?: string
+    id?: string
 }

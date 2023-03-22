@@ -1,3 +1,3 @@
 export interface ILandingSlugs {
-	id?: string
+    id?: string
 }

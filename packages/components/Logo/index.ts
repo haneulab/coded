@@ -1,2 +1,2 @@
-import {default as Logo} from "./Logo"
+import { default as Logo } from './Logo'
 export default Logo

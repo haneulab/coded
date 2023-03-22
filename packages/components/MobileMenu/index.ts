@@ -1,2 +1,2 @@
-import {default as MobileMenu} from "./MobileMenu"
+import { default as MobileMenu } from './MobileMenu'
 export default MobileMenu

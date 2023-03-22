@@ -1,2 +1,2 @@
-import {default as LoginButton} from "./LoginButton"
+import { default as LoginButton } from './LoginButton'
 export default LoginButton

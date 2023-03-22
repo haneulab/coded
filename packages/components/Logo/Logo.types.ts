@@ -1,3 +1,3 @@
 export interface ILogo {
-	id?: string
+    id?: string
 }

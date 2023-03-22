@@ -1,3 +1,3 @@
 export interface IMenuButton {
-	id?: string
+    id?: string
 }

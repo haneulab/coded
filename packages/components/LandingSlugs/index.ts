@@ -1,2 +1,2 @@
-import {default as LandingSlugs} from "./LandingSlugs"
+import { default as LandingSlugs } from './LandingSlugs'
 export default LandingSlugs

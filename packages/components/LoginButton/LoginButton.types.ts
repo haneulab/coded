@@ -1,3 +1,3 @@
 export interface ILoginButton {
-	id?: string
+    id?: string
 }

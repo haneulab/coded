@@ -1,3 +1,3 @@
 export interface ILandingTag {
-	id?: string
+    id?: string
 }

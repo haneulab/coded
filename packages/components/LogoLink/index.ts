@@ -1,2 +1,2 @@
-import {default as LogoLink} from "./LogoLink"
+import { default as LogoLink } from './LogoLink'
 export default LogoLink
