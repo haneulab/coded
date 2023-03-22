@@ -22,6 +22,7 @@ const MenuButton = (props: IMenuButton) => {
     return (
         <>
             <button
+                role={'button'}
                 onClick={onShowMenu}
                 className="transition-smooth lg:hover:opacity-70"
             >

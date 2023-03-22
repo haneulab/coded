@@ -11,7 +11,11 @@ const MobileMenu = (props: IMobileMenu) => {
         <aside className="w-full bg-white shadow-lg h-max text-bmain shadow-bmain/75">
             <section className="flex justify-between w-full px-8 py-3 mx-auto md:py-4 max-w-cutoff">
                 <Logo />
-                <button onClick={props.onHideMenu}>
+                <button
+                    type="button"
+                    aria-label="closebutton"
+                    onClick={props.onHideMenu}
+                >
                     <TfiClose className="text-xl" />
                 </button>
             </section>
@@ -70,7 +74,11 @@ const MobileMenu = (props: IMobileMenu) => {
                 </ul>
             </ul>
             <div className="px-8 mx-auto mt-8 max-w-cutoff">
-                <button className="px-8 py-2 border rounded-md border-gto font-nunito text-gto transition-smooth lg:hover:opacity-70">
+                <button
+                    type="button"
+                    aria-label="loginbutton"
+                    className="px-8 py-2 border rounded-md border-gto font-nunito text-gto transition-smooth lg:hover:opacity-70"
+                >
                     Login
                 </button>
             </div>

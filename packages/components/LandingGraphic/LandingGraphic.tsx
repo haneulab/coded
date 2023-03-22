@@ -14,7 +14,11 @@ const LandingGraphic = (props: ILandingGraphic) => {
             <article className="relative w-full mx-auto md:max-w-sm lg:max-w-2xl z-30 flex flex-col px-8 pt-12 pb-8 font-mono text-sm border-t border-x rounded-md border-bmain/25 shadow-md shadow-gvia-500/25 bg-bmain/90 lg:hover:bg-slate-800/90 backdrop-blur-md gap-y-3 text-wmain lg:hover:scale-[110%] transition-smooth lg:hover:shadow-2xl">
                 <span className="absolute top-0 right-0 inline-flex items-center px-3 py-1.5 text-xs border rounded-md bg-slate-700/75 border-wmain/5 transition-smooth lg:hover:bg-slate-800 text-gvia gap-x-4">
                     <span>Coded Invoicy</span>
-                    <button className="font-medium text-red-400 transition-smooth lg:hover:sacle-105 lg:hover:text-red-500">
+                    <button
+                        type="button"
+                        role={'button'}
+                        className="font-medium text-red-400 transition-smooth lg:hover:sacle-105 lg:hover:text-red-500"
+                    >
                         <TfiClose />
                     </button>
                 </span>
@@ -51,10 +55,18 @@ const LandingGraphic = (props: ILandingGraphic) => {
                     Amanda. I&apos;ve outputed your invoice for today 4/25/2023.
                 </p>
                 <ul className="flex flex-col pt-2 gap-y-4 md:flex-row md:gap-y-0 md:gap-x-4">
-                    <button className="px-4 py-2 border rounded-md border-gvia text-gvia font-inter transition-smooth lg:hover:bg-gvia lg:hover:text-bmain w-full md:w-[175px]">
+                    <button
+                        disabled={true}
+                        role={'presentation'}
+                        className="px-4 py-2 border rounded-md border-gvia text-gvia font-inter transition-smooth lg:hover:bg-gvia lg:hover:text-bmain w-full md:w-[175px]"
+                    >
                         View invoice.pdf
                     </button>
-                    <button className="px-4 py-2 border rounded-md border-gvia text-gvia font-inter transition-smooth lg:hover:bg-gvia lg:hover:text-bmain w-full md:w-[175px]">
+                    <button
+                        disabled={true}
+                        role={'presentation'}
+                        className="px-4 py-2 border rounded-md border-gvia text-gvia font-inter transition-smooth lg:hover:bg-gvia lg:hover:text-bmain w-full md:w-[175px]"
+                    >
                         Save & Exit
                     </button>
                 </ul>
